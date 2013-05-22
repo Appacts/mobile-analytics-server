@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="AppActs.API.DataMapper.Interface.IAppUserMapper">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IAppUserMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppActs.API.DataMapper.Interface.ISystemErrorMapper">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\ISystemErrorMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppActs.API.DataMapper.Interface.ICrashMapper">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\ICrashMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppActs.API.DataMapper.Interface.IDeviceMapper">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IDeviceMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppActs.API.DataMapper.Interface.IErrorMapper">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IErrorMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppActs.API.DataMapper.Interface.IEventMapper">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IEventMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppActs.API.DataMapper.Interface.IFeedbackMapper">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IFeedbackMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AppActs.API.DataMapper.Interface.ISave&lt;TEntityRaw, TEntitySummary&gt;">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\ISave.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppActs.API.DomainModel.Item">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAEQAAAAIIAAAAAAABEAAEAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.SummaryWithScreen">
+    <Position X="4.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SummaryWithScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.ItemWithScreen">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ItemWithScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Summary">
+    <Position X="1" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAQAAAAYAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Summary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.AppUsageDurationSummary">
+    <Position X="3" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Event\AppUsageDurationSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.TimeOfDayGroup">
+    <Position X="20.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAAAAAAAABAIBAAAAAAEAAAACAQCAAAAAAI=</HashCode>
+      <FileName>Event\TimeOfDayGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.AppUsageSummary">
+    <Position X="0.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Event\AppUsageSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.ContentLoadSummary">
+    <Position X="7.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Event\ContentLoadSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.DayOfWeekGroup">
+    <Position X="14.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAARAAAAAAAAAAAAAQAAEAAAAAEAAAAAIQ=</HashCode>
+      <FileName>Event\DayOfWeekGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.Event">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAIAAABAAAAAAAAgAAAA=</HashCode>
+      <FileName>Event\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.EventSummary">
+    <Position X="5.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Event\EventSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.FrequencyOfUsageGroup">
+    <Position X="16.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAlAAAAAAISQAQAIAAgAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Event\FrequencyOfUsageGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.LoyalyGroup">
+    <Position X="18.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAARACAAAAAAAAAAAAAAAAwAAAAAQAAAAABACAA=</HashCode>
+      <FileName>Event\LoyalyGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.ScreenUsageSummary">
+    <Position X="2.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Event\ScreenUsageSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.SessionLengthGroup">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEAAQABAAAQBAAAAEAAAAIACAAAQAAAAABAAAAAAA=</HashCode>
+      <FileName>Event\SessionLengthGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.API.DomainModel.Event.ScreenJourneySummary">
+    <Position X="5.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Event\ScreenJourneySummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AppActs.API.DomainModel.Enum.EventType">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgQAIEAACAAAAAgAAAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>Event\EventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

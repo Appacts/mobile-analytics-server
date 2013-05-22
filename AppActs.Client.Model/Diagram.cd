@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppActs.Client.Data.Model.AccountUserEventLog">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAA=</HashCode>
+      <FileName>AccountUserEventLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.Settings">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAEAAAAARAAEAAACAAAAAAQAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.AccountUserForgotPassword">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAgAAAAAAAAAABAAgAAAEAAAAAAA=</HashCode>
+      <FileName>AccountUserForgotPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.AccountUserInvite">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>AccountUserInvite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.AccountUserLogin">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>AccountUserLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.Data">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.DataRow">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBgAAAAIBAQCAAAAAgABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.DatePicker">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DatePicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.Dictionaries">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAABAAERAQAAICAAAABAAAECAACAJQEAAIAAA=</HashCode>
+      <FileName>Dictionaries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.Graph">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAQBAhAACIAQIAAAAAAAAAAAAAgAAAIAAAhE=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.GraphAxis">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>GraphAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.GraphDetail">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.GraphSeries">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.PlatformSDK">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAAAAA=</HashCode>
+      <FileName>PlatformSDK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.ReportFilter">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAIAAEAAAAAAAAAAAAAAQAAAAAAABBAABA=</HashCode>
+      <FileName>ReportFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.Tile">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.TileWithValueOne">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>TileWithValueOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.TileWithValueThree">
+    <Position X="0.5" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TileWithValueThree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.TileWithValueTwo">
+    <Position X="0.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TileWithValueTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.TileWithTrend">
+    <Position X="4.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>TileWithTrend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.TileTrendAndValueOne">
+    <Position X="4" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>TileTrendAndValueOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.TileTrendAndValueTwo">
+    <Position X="4.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TileTrendAndValueTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppActs.Client.Data.Model.TileTrendAndValueThree">
+    <Position X="4" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TileTrendAndValueThree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

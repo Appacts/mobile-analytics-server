@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorAppNameTaken" xml:space="preserve">
+    <value>App name specified is already taken, please choose other name.</value>
+  </data>
+  <data name="ErrorEmailTaken" xml:space="preserve">
+    <value>Email address specified is already taken, please use another email address.</value>
+  </data>
+  <data name="ErrorGeneral" xml:space="preserve">
+    <value>It's seems that there is an issue with our system, we have logged this issue, please try again later.</value>
+  </data>
+  <data name="ErrorInvalidEmailAddress" xml:space="preserve">
+    <value>Invalid email address has been specified, please make sure your email address is correct.</value>
+  </data>
+  <data name="ErrorInviteEmailCantBeSent" xml:space="preserve">
+    <value>We couldn't send an email invite to the following user(s) {0}, please try again later.</value>
+  </data>
+  <data name="ErrorInviteEmailTaken" xml:space="preserve">
+    <value>The following user(s) &lt;strong&gt;{0}&lt;/strong&gt; already have signed up or been invited. Please choose someone else.</value>
+  </data>
+  <data name="ErrorLoginInvalid" xml:space="preserve">
+    <value>Wrong email and password combination.</value>
+  </data>
+  <data name="ErrorLoginInvalidCredentials" xml:space="preserve">
+    <value>Invalid email or password specified.</value>
+  </data>
+  <data name="ErrorNoSuchEmailAddress" xml:space="preserve">
+    <value>Email address specified was not found.</value>
+  </data>
+  <data name="ErrorPasswordOldDontMatch" xml:space="preserve">
+    <value>Your current password dosen't match your current password.</value>
+  </data>
+  <data name="ErrorPasswordResetInvalidToken" xml:space="preserve">
+    <value>This link is no longer valid, please request password reset again.</value>
+  </data>
+  <data name="ErrorPasswordsDontMatch" xml:space="preserve">
+    <value>Password and Password confirm need to match.</value>
+  </data>
+  <data name="ErrorPasswordValidation" xml:space="preserve">
+    <value>Password needs to be atleast 6 characters long, and Passwords need to match,</value>
+  </data>
+  <data name="ErrorSettingsEmailCantBeSent" xml:space="preserve">
+    <value>We couldn't send email to your new user,  please try adding your new user later.</value>
+  </data>
+  <data name="ErrorValidation" xml:space="preserve">
+    <value>Information specified dosen't seem correct.</value>
+  </data>
+  <data name="SuccessAppRemoved" xml:space="preserve">
+    <value>Application {0} was removed. No further action is required.</value>
+  </data>
+  <data name="SuccessAppRenamed" xml:space="preserve">
+    <value>Application was renamed to &lt;strong&gt;{0}&lt;/strong&gt;, no further action is required.</value>
+  </data>
+  <data name="SuccessForgotPasswordRequest" xml:space="preserve">
+    <value>Your password reset request was sent to &lt;strong&gt;{0}&lt;/strong&gt;. Please follow instructions in the email.</value>
+  </data>
+  <data name="SuccessInvite" xml:space="preserve">
+    <value>We have just sent invitations to your colleague(s) &lt;strong&gt; {0} &lt;/strong&gt; you have &lt;strong&gt; {1} &lt;/strong&gt; invitations left.</value>
+  </data>
+  <data name="SuccessPasswordReset" xml:space="preserve">
+    <value>Your password was changed successfully. Please &lt;a href="https://www.appacts.com/?login=true"&gt; login now&lt;/a&gt; using your new password.</value>
+  </data>
+  <data name="SuccessProfilePasswordChanged" xml:space="preserve">
+    <value>Your password was changed succesfully.</value>
+  </data>
+  <data name="SuccessProfileUpdated" xml:space="preserve">
+    <value>Your profile was updated successfully.</value>
+  </data>
+  <data name="SuccessSettingsUserAdded" xml:space="preserve">
+    <value>User was added successfully.</value>
+  </data>
+  <data name="SuccessSettingsUserRemoved" xml:space="preserve">
+    <value>User was removed succesfully.</value>
+  </data>
+  <data name="ErrorValidationSummary" xml:space="preserve">
+    <value>&lt;strong&gt;You must enter values in the following field(s):&lt;/strong&gt;</value>
+  </data>
+  <data name="ErrorAtleastOnePlatformMustBeSelected" xml:space="preserve">
+    <value>Your application has to support at least one platform.</value>
+  </data>
+  <data name="NotificationNoDataForDateRange" xml:space="preserve">
+    <value>No data for date range selected.</value>
+  </data>
+  <data name="ErrorEndDateCantBeFuture" xml:space="preserve">
+    <value>End Date can't be in the future</value>
+  </data>
+  <data name="ErrorVerificationInvalid" xml:space="preserve">
+    <value>Can’t verify this user, as such user doesn’t exist.</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Please select...</value>
+  </data>
+</root>

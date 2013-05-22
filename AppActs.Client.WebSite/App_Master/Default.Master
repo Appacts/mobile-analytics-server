@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="AppActs.Client.WebSite.App_Master.Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+        <script language="javascript" type="text/javascript" src="/JavaScript/Library/jquery-1.7.1.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/JavaScript/Library/jquery.dd.js"></script>
+        <script language="javascript" type="text/javascript" src="/JavaScript/appacts.validation.min.js"></script>
+
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <link rel="shortcut icon" type="image/x-icon" href="/App_Themes/Default/Images/favicon.ico" />
+    </head>
+
+    <body id="body">
+        <form id="form1" runat="server">
+            
+            <div runat="server" id="divError" visible="false">
+                <div id="overlay" style="display:block;"></div>
+                <div class="lightboxSmall" style="display:block">
+                
+                        <div class="borderLeft">
+                        <div class="borderRight">
+                        <div class="lightboxSmallContent">
+                        <h3>OPPS! NOT AWESOME...</h3>
+                        <p>There has been an issue processing your request. Please try again later.</p>
+                        <p>We have logged the issue and our team will resolve it asap</p>
+                        <div id="submit" class="submit">ACCEPT OUR APOLOGY</div>
+                        
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $("#submit").click(function () {
+                                    $('#divError').fadeOut();
+                                });
+                            });
+                        </script>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <asp:ContentPlaceHolder ID="header" runat="server">
+                    
+            </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="content" runat="server">
+
+            </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="footer" runat="server">
+            
+            </asp:ContentPlaceHolder>
+
+        </form>
+    </body>
+
+</html>

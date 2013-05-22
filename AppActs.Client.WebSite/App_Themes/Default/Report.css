@@ -1,0 +1,601 @@
+﻿#report
+{
+    float:left;
+    border:1px solid #C3C3C3;
+    background:white;
+    width:1000px;
+}
+
+
+#report #stage #NoData
+{
+    position:absolute;
+    margin-top: 150px;
+    width: 1000px;
+    text-align: center;
+    font-family: 'Oswald', Arial;
+    font-size: 15px;
+    color: grey;
+    display:none;
+}
+
+
+#report #dataDimensions
+{
+    float:left;
+    width:inherit;
+}
+
+#report #dataDimensions #appOptions
+{
+    float:right;
+    width:260px;
+    height:97px;
+    padding:10px 10px 10px 10px;
+    border:1px solid #C6C4C5;
+    border-top:0px;
+    margin-right:30px;
+    background-image:url("/App_Themes/Default/Images/appOptions_gradient.jpg");
+}
+
+#report #dataDimensions #appOptions .control
+{
+    float:left;
+    width:inherit;
+    margin-bottom:8px;
+}
+
+#report #dataDimensions #appOptions .control > span
+{
+    float:left;
+    width:75px;
+    margin-right:6px;
+    font-size:14px;
+    margin-top:4px;
+    font-family:'Oswald', Arial;
+}
+
+#report #dataDimensions #appOptions .control select
+{
+    float:left;
+    width:175px;
+    font-size:12px;
+}
+
+#report #dataDimensions #appOptions #custom
+{
+    float:left;
+    width:inherit;
+}
+
+#report #dataDimensions #appOptions #custom #dateChange
+{
+    float:left;
+    background-image:url("/App_Themes/Default/Images/calendar_icon.jpg");
+    min-width:170px;
+    min-height:27px;
+    margin-right:5px;
+    cursor:pointer;
+}
+
+
+#report #dataDimensions #appOptions #custom #customDateRangeSelection
+{
+    position:absolute;
+    width:420px;
+    height:240px;
+    border:1px solid #C7C7C7;
+    border-left:2px solid #C7C7C7;
+    margin-top:30px;
+    margin-left:-191px;
+    background:white;
+    -moz-box-shadow: 2px 2px 2px #BCBCBC;
+    -webkit-box-shadow: 2px 2px 2px #BCBCBC;
+    box-shadow: 2px 2px 2px #BCBCBC;
+    z-index:9999999;
+    padding:20px;
+}
+
+#report #dataDimensions #appOptions #custom #customDateRangeSelection .calendarsContainer
+{
+    width:inherit;
+    float:left;
+}
+
+.calendarsContainer .calendarContainer
+{
+    float:left;
+    width:200px;
+}
+
+.calendarsContainer .calendarContainer .title
+{
+    float:left;
+    font-size:12px;     
+    font-family:'Oswald', Arial;
+}
+
+#customCalendarFrom,
+#customCalendarTo
+{
+    float: left;
+    width: 210px;
+    height: 155px;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+#customDateRangeSelection #dateChangeApply
+{
+    margin-top:20px;
+}
+
+#report #dataDimensions #appOptions #custom #dateRange
+{
+    float:right;
+    width:70px;
+    height:28px;
+    font-size:12px;
+    font-family:'Oswald', Arial;
+    line-height:14px;
+    text-align:right;
+    margin-right:2px;
+}
+
+
+.switchOn,
+.switchOff
+{
+    float:left;
+    width:51px;
+    height:20px;
+    max-width:51px;
+    max-height:20px;
+    background-image:url("/App_Themes/Default/Images/switch_off.jpg");
+    font-family:'Oswald', Arial;
+    font-size:12px;
+    margin-left:5px;
+    color:#808080;
+    cursor:pointer;
+    text-align:center;
+    padding-top:5px;
+    margin-top:0px;
+}
+
+.switchOn
+{
+    background-image:url("/App_Themes/Default/Images/switch_on.jpg");
+    color:white;
+}
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams
+{
+    float:left;
+    width:inherit;
+    padding-left:30px;
+    display:none;
+}
+
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #views
+{
+    float:left;
+    width:195px;
+}
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #views .title
+{
+    font-size:16px;    
+    font-family:'Oswald', Arial;
+    float:left;
+}
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #params
+{
+    float:left;
+    width:420px;
+    max-height:54px;
+    overflow:auto;    
+    overflow-x:hidden;
+    border-left:1px solid #939393;
+    margin-left:10px;
+    padding-left:10px;
+}
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #params #message
+{
+    float:left;
+    width:430px;
+    display:none;
+    font-size:12px;
+    color:#969696;
+    font-family:'Oswald';
+    margin-bottom:10px;
+}
+
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #params ul
+{
+    float:left;
+    font-size:12px;
+    font-weight:bold;
+    width:430px;
+    padding:0px;
+    margin:0px;
+}
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #params ul li
+{
+    float:left;
+    list-style-type:none;
+    margin-right:10px;
+    margin-bottom:10px;
+    width:130px;
+}
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #params ul li input
+{
+    float:left;
+}
+
+#dataDimensions #optionsViewSwitchAndParams #viewSwitchAndParams #params ul li span
+{
+    float:left;
+    margin-left:5px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+
+
+
+#report #stage
+{
+    float:left;
+    width:960px;
+    min-height:331px;
+    padding:0px 20px 20px 20px;
+}
+
+#report #stage #name
+{
+    float:left;
+    width:inherit;
+    font-family:'Oswald', Arial;
+    margin-bottom:20px;
+    margin-top:-5px;
+}
+
+#report #stage #name #title
+{
+    font-size:25px;
+}
+
+#report #stage #name #desc
+{
+    font-size:13px;
+    margin-left:5px;
+}
+
+#report #stage #table
+{
+    float:right;
+    width:960px;
+    max-height:270px;
+    min-height:270px;
+}
+
+
+#graph
+{
+    float:left;
+    font-family:'Oswald', Arial;
+}
+
+
+
+#table 
+{
+    float:right;
+    width:960px;
+    /* background-image: url("/App_Themes/Default/Images/report_background.jpg");
+    background-repeat: repeat; */
+}
+
+#dataDimensions #optionsViewSwitchAndParams
+{
+    float:left;
+    width:640px;
+}
+
+#dataDimensions #options
+{
+    float:left;
+    width:490px;
+    font-family: 'Oswald', Arial;
+    color:#797979;
+    font-size:13px;
+    width:470px;
+    margin-bottom:15px;
+}
+
+#dataDimensions #options span
+{
+    float:left;
+    width:88px;
+    height:inherit;
+    cursor:pointer;
+    text-align:center;
+    line-height:15px;
+    background-image:url("/App_Themes/Default/Images/report_background_menu_select.jpg");
+    height:39px;
+    margin-right:2px;
+    padding:10px 1px 0px 1px;
+    display:none;
+}
+
+#dataDimensions #options span.select
+{
+    background-image:none;
+    color:#323232;
+}
+
+#dataDimensions #options span.single
+{
+    padding-top: 18px;
+    height: 31px;
+}
+
+
+#data
+{
+    float:left;
+}
+
+
+#data #table
+{
+    float:left;
+    font-family: 'Oswald', Arial;
+    width:960px;
+    text-align:left;
+}
+
+#data #table.normal
+{
+
+}
+
+#data #table.compare
+{
+
+}
+
+
+#data #table table
+{
+    float:left;
+    max-width:960px;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+
+#data #table table tr th.title
+{
+    max-width: 260px;
+    min-width: 150px;
+    font-weight:normal;
+}
+
+#data #table table tr th.x
+{
+
+}
+
+#data #table table tr th.y
+{
+
+}
+
+#data #table table td.alter
+{
+    background:#ECECEC;
+}
+
+#data #table table td.selected
+{
+    background:#FF4E00;
+    color:White;
+}
+
+#data #table table td.canBeSelected
+{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#data #table table tr td.x
+{
+    width:50px;
+    margin-right:5px;
+    text-align:center;
+    font-size:9px;
+}
+
+#data #table table tr td.y
+{
+    width:50px;
+    margin-right:5px;
+    text-align:center;
+    font-weight:normal;
+}
+
+
+#data #table table tr td
+{
+    height:30px;
+}
+
+#data #table tr th
+{
+    font-size:15px;
+    text-align:left;
+}
+
+#data #table tr td
+{
+    font-size:12px;
+}
+
+#data #table tr th.header1,
+#data #table tr th.header2,
+#data #table tr th.header3
+{
+    text-align:center;
+}
+
+#data #table tr th.header1 span,
+#data #table tr th.header2 span,
+#data #table tr th.header3 span
+{
+    color:White;
+    font-size:12px;
+    font-weight:normal;
+    padding:2px 2px 2px 2px;
+    text-align:left;
+    margin:0px auto 0px auto;
+    width:90px;
+}
+
+#data #table tr th.header1 span
+{
+    background:#F84C00;
+}
+
+#data #table tr th.header2 span
+{
+    background:#35519B;
+}
+
+#data #table tr th.header3 span
+{
+    background:#BC1753;
+}
+
+#data #table tr td.value
+{
+    text-align:center;
+}
+
+#data #paging
+{
+    float: left;
+    width: 960px;
+    font-family: 'Oswald', Arial;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.hide
+{
+    display:none;
+}
+
+#data #paging #page
+{
+    float:left;
+    color:#969696;
+}
+
+#data #paging #controls
+{
+    float:right;
+}
+
+#data #paging #controls #prev
+{
+    float:right;
+    cursor:pointer;
+}
+
+#data #paging #controls #next
+{
+    float:right;
+    cursor:pointer;
+    margin-left:13px;
+}
+
+
+.pieLabel
+{
+    z-index:9999;
+}
+
+
+
+#detailReport
+{
+    background:white;
+    border:1px solid #BFBFBF;
+    position: absolute;
+    min-height: 200px;
+    width:950px;
+    z-index:99999;
+}
+
+#detailReport .point
+{
+    background-image: url('/App_Themes/Default/Images/report_detail_point.png');
+    height: 15px;
+    position: absolute;
+    top: -15px;
+    width: 31px;
+}
+
+#detailReport .detailReportTable
+{
+    padding: 15px 20px 15px 20px;
+    min-height: 170px;
+    max-height: 430px;
+    overflow: auto;
+}
+
+#detailReport .detailReportTable table
+{
+    border-collapse:separate;
+    border-spacing: 0px 20px;
+}
+
+#detailReport .detailReportTable table th
+{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+#detailReport .detailReportTable table th span
+{
+    background-color: #000000;
+    line-height: 22px;
+    padding: 5px;
+    margin: 0px 2px;
+}
+
+#detailReport .detailReportTable table td
+{
+    border-right: 1px solid #353535;
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 5px 5px 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#detailReport .detailReportTable table td .last
+{
+    border-right: none;
+}

@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/App_Master/DefaultLoggedIn.master" AutoEventWireup="true" CodeBehind="DefaultLoggedInSettings.master.cs" Inherits="AppActs.Client.WebSite.App_Master.DefaultLoggedInSettings" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+    <script language="javascript" type="text/javascript" src="/JavaScript/Library/jquery-ui-1.7.3.custom.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/JavaScript/Library/jquery.multiselect.min.js"></script>
+
+    <asp:ContentPlaceHolder runat="server" ID="head">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+    <div class="Name">
+       Hello, <asp:Label runat="server" ID="lblName" Text="Firstname Lastname" />
+    </div>
+
+    <div class="MenuLeft">
+        <div class="borderLeft">
+            <div class="borderRight">
+                <div class="Container">
+                    <asp:HyperLink EnableViewState="false" 
+                        runat="server" 
+                        ID="hypAccount"
+                        NavigateUrl="~/Account/Profile/">ACCOUNT</asp:HyperLink>
+
+                    <asp:HyperLink EnableViewState="false" 
+                        runat="server" 
+                        ID="hypUsers"
+                        NavigateUrl="~/Account/Settings/">USERS</asp:HyperLink>
+
+                    <asp:HyperLink EnableViewState="false" runat="server" 
+                        ID="hypApps"
+                        NavigateUrl="~/Apps/">APPS</asp:HyperLink>       
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ContentRight">
+        <div class="borderLeft">
+            <div class="borderRight">
+                <div class="Container">
+                    <asp:ContentPlaceHolder runat="server" ID="content">
+                    </asp:ContentPlaceHolder>                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+</asp:Content>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CC61FE6-4E96-4790-8709-49B9B0DC39D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppActs.Client.Model</RootNamespace>
+    <AssemblyName>AppActs.Client.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\packages\mongocsharpdriver.1.8.0\lib\net35\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DatePicker.cs" />
+    <Compile Include="Enum\ChartType.cs" />
+    <Compile Include="Enum\ScreenType.cs" />
+    <Compile Include="Enum\TileType.cs" />
+    <Compile Include="Enum\TrendType.cs" />
+    <Compile Include="GraphAxis.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="GraphInfo.cs" />
+    <Compile Include="GraphSeries.cs" />
+    <Compile Include="GraphWithInfo.cs" />
+    <Compile Include="GraphWithTabularCompare.cs" />
+    <Compile Include="GraphWithTabularCompareOfTOptionOfTSelect.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionReportComparePlatform.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionReportDetail.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionReportReportCompareApplication.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionReportReportCompareVersion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDefinition\ReportDefinition.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionReport.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionReportNormal.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitions.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionsSection.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionSummary.cs" />
+    <Compile Include="ReportDefinition\ReportDefinitionNestedValue.cs" />
+    <Compile Include="ReportFilter.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Tile\Tile.cs" />
+    <Compile Include="Tile\TileTrendAndValueOne.cs" />
+    <Compile Include="Tile\TileTrendAndValueThree.cs" />
+    <Compile Include="Tile\TileTrendAndValueTwo.cs" />
+    <Compile Include="Tile\TileWithTrend.cs" />
+    <Compile Include="Tile\TileWithValueThree.cs" />
+    <Compile Include="Tile\TileWithValueOne.cs" />
+    <Compile Include="Tile\TileWithValueTwo.cs" />
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppActs.Model\AppActs.Model.csproj">
+      <Project>{667039A1-F92A-40EB-B430-790F9502BC12}</Project>
+      <Name>AppActs.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

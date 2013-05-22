@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66777F9F-73FD-4C09-8BD0-347998E326D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppActs.Client.WebSite</RootNamespace>
+    <AssemblyName>AppActs.Client.WebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\References\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AppActs.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AppActs.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AppActs.Mvp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AppActs.Mvp.dll</HintPath>
+    </Reference>
+    <Reference Include="AppActs.Mvp.Web, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AppActs.Mvp.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CacheProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\CacheProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MongoDB.Bson, Version=1.8.0.124, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\mongocsharpdriver.1.8.0\lib\net35\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=1.8.0.124, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\mongocsharpdriver.1.8.0\lib\net35\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Profile\Default.aspx" />
+    <Content Include="Account\Profile\Default.effects.js" />
+    <Content Include="Account\Settings\Default.aspx" />
+    <Content Include="Account\Settings\Default.effects.js" />
+    <Content Include="App_Themes\Default\Base.css" />
+    <Content Include="App_Themes\Default\DatePicker.css" />
+    <Content Include="App_Themes\Default\dd.css" />
+    <Content Include="App_Themes\Default\franchise-bold-webfont.svg" />
+    <Content Include="App_Themes\Default\Franchise.css" />
+    <Content Include="App_Themes\Default\Images\appOptions_gradient.jpg" />
+    <Content Include="App_Themes\Default\Images\background.jpg" />
+    <Content Include="App_Themes\Default\Images\border_left.png" />
+    <Content Include="App_Themes\Default\Images\border_left_med.jpg" />
+    <Content Include="App_Themes\Default\Images\border_right.png" />
+    <Content Include="App_Themes\Default\Images\border_right_med.jpg" />
+    <Content Include="App_Themes\Default\Images\calendar_go_left.gif" />
+    <Content Include="App_Themes\Default\Images\calendar_go_left.jpg" />
+    <Content Include="App_Themes\Default\Images\calendar_go_right.jpg" />
+    <Content Include="App_Themes\Default\Images\calendar_header.jpg" />
+    <Content Include="App_Themes\Default\Images\calendar_icon.jpg" />
+    <Content Include="App_Themes\Default\Images\calendar_notinmonth.jpg" />
+    <Content Include="App_Themes\Default\Images\favicon.ico" />
+    <Content Include="App_Themes\Default\Images\feed_item_hover.jpg" />
+    <Content Include="App_Themes\Default\Images\feed_item_select.jpg" />
+    <Content Include="App_Themes\Default\Images\footer_background.jpg" />
+    <Content Include="App_Themes\Default\Images\footer_copy_background.png" />
+    <Content Include="App_Themes\Default\Images\footer_links_background.png" />
+    <Content Include="App_Themes\Default\Images\gender_female.png" />
+    <Content Include="App_Themes\Default\Images\gender_male.png" />
+    <Content Include="App_Themes\Default\Images\green_tile_background.png" />
+    <Content Include="App_Themes\Default\Images\green_tile_background_medium.png" />
+    <Content Include="App_Themes\Default\Images\headerLinkGray.png" />
+    <Content Include="App_Themes\Default\Images\headerLinkGrayHover.png" />
+    <Content Include="App_Themes\Default\Images\headerLinkOrange.png" />
+    <Content Include="App_Themes\Default\Images\headerLinkOrangeHover.png" />
+    <Content Include="App_Themes\Default\Images\header_background.jpg" />
+    <Content Include="App_Themes\Default\Images\header_background.png" />
+    <Content Include="App_Themes\Default\Images\input_multiselect_background.jpg" />
+    <Content Include="App_Themes\Default\Images\input_textbox_background.jpg" />
+    <Content Include="App_Themes\Default\Images\Loading.gif" />
+    <Content Include="App_Themes\Default\Images\Loading_Data.gif" />
+    <Content Include="App_Themes\Default\Images\logo-email.png" />
+    <Content Include="App_Themes\Default\Images\logo.png" />
+    <Content Include="App_Themes\Default\Images\menu_background.jpg" />
+    <Content Include="App_Themes\Default\Images\menu_item_arrow.jpg" />
+    <Content Include="App_Themes\Default\Images\menu_item_arrow_selected.jpg" />
+    <Content Include="App_Themes\Default\Images\menu_item_selected.jpg" />
+    <Content Include="App_Themes\Default\Images\milestone_tile_background_medium.png" />
+    <Content Include="App_Themes\Default\Images\platform2.jpg" />
+    <Content Include="App_Themes\Default\Images\platform4.jpg" />
+    <Content Include="App_Themes\Default\Images\platform5.jpg" />
+    <Content Include="App_Themes\Default\Images\platform6.jpg" />
+    <Content Include="App_Themes\Default\Images\report_detail_point.png" />
+    <Content Include="App_Themes\Default\Images\report_background.jpg" />
+    <Content Include="App_Themes\Default\Images\report_background_menu_select.jpg" />
+    <Content Include="App_Themes\Default\Images\report_close.jpg" />
+    <Content Include="App_Themes\Default\Images\report_table_row.png" />
+    <Content Include="App_Themes\Default\Images\report_timeline.jpg" />
+    <Content Include="App_Themes\Default\Images\report_timeline_select.jpg" />
+    <Content Include="App_Themes\Default\Images\sad_face.png" />
+    <Content Include="App_Themes\Default\Images\seefullgraph_background.png" />
+    <Content Include="App_Themes\Default\Images\showtable_background.png" />
+    <Content Include="App_Themes\Default\Images\switch_off.jpg" />
+    <Content Include="App_Themes\Default\Images\switch_on.jpg" />
+    <Content Include="App_Themes\Default\Images\tile_icon_carrier.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_crash.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_feedback0.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_feedback1.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_feedback2.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_feedback3.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_feedback4.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_feedback5.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_friday.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_loadspeed.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_monday.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_platform.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_saturday.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_sunday.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_thursday.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_timeofday.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_tuesday.png" />
+    <Content Include="App_Themes\Default\Images\tile_icon_wednesday.png" />
+    <Content Include="App_Themes\Default\Images\tile_negative.jpg" />
+    <Content Include="App_Themes\Default\Images\tile_negative_selected.jpg" />
+    <Content Include="App_Themes\Default\Images\tile_neutral.jpg" />
+    <Content Include="App_Themes\Default\Images\tile_neutral_selected.jpg" />
+    <Content Include="App_Themes\Default\Images\tile_positive.jpg" />
+    <Content Include="App_Themes\Default\Images\tile_positive_selected.jpg" />
+    <Content Include="App_Themes\Default\Images\timeline_item.jpg" />
+    <Content Include="App_Themes\Default\Images\timeline_item_select.png" />
+    <Content Include="App_Themes\Default\jquery.multiselect.css" />
+    <Content Include="App_Themes\Default\oswald-regular-webfont.svg" />
+    <Content Include="App_Themes\Default\Oswald.css" />
+    <Content Include="App_Themes\Default\Report.css" />
+    <Content Include="App_Themes\Default\Reset.css" />
+    <Content Include="App_Themes\Default\Tile.css" />
+    <Content Include="App_Views\ForgotPasswordView.ascx" />
+    <Content Include="App_Views\LoginView.ascx" />
+    <Content Include="App_Views\SetupAppAddView.ascx" />
+    <Content Include="App_Views\SetupAppUpdateView.ascx" />
+    <Content Include="App_Views\SetupAppViewView.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Default.effects.js" />
+    <Content Include="App_Config\ReportDefinitionsUnfinished.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="JavaScript\appacts.report.chart.js" />
+    <Content Include="JavaScript\appacts.report.data.compare.js" />
+    <Content Include="JavaScript\appacts.report.data.normal.js" />
+    <Content Include="JavaScript\appacts.report.data.detail.js" />
+    <Content Include="JavaScript\appacts.validation.js" />
+    <Content Include="JavaScript\Extensions\dateRange.js" />
+    <Content Include="JavaScript\Library\excanvas.min.js" />
+    <Content Include="JavaScript\Library\jquery.dd.js" />
+    <Content Include="JavaScript\Library\jquery.easing.js" />
+    <Content Include="JavaScript\Library\jquery.nicescroll.js" />
+    <Content Include="Global.asax" />
+    <Content Include="JavaScript\appacts.report.js" />
+    <Content Include="JavaScript\appacts.tile.js" />
+    <Content Include="JavaScript\Extensions\scrollbarWidth.js" />
+    <Content Include="JavaScript\Library\datepicker-eye.js" />
+    <Content Include="JavaScript\Library\datepicker-utils.js" />
+    <Content Include="JavaScript\Library\datepicker.js" />
+    <Content Include="JavaScript\Library\jquery-1.7.1.min.js" />
+    <Content Include="JavaScript\Library\jquery-ui-1.7.3.custom.min.js" />
+    <Content Include="JavaScript\Library\jquery.flip.min.js" />
+    <Content Include="JavaScript\Library\jquery.flot.ext.js" />
+    <Content Include="JavaScript\Library\jquery.flot.js" />
+    <Content Include="JavaScript\Library\jquery.flot.pie.js" />
+    <Content Include="JavaScript\Library\jquery.multiselect.min.js" />
+    <Content Include="JavaScript\Library\jquery.session.js" />
+    <Content Include="JavaScript\Library\mustache.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Password-Change\Default.aspx" />
+    <Content Include="Apps\Default.aspx" />
+    <Content Include="Apps\Default.effects.js" />
+    <Content Include="App_Config\ReportDefinitions.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebService\Report.asmx" />
+    <Content Include="WebService\Tile.asmx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\Profile\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Profile\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Settings\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Settings\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Base\DataTableConverter.cs" />
+    <Compile Include="App_Base\DatePickerConverter.cs" />
+    <Compile Include="App_Base\GraphSeriesConverter.cs" />
+    <Compile Include="App_GlobalResources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Master\DefaultLoggedInSettings.master.cs">
+      <DependentUpon>DefaultLoggedInSettings.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Master\DefaultLoggedInSettings.master.designer.cs">
+      <DependentUpon>DefaultLoggedInSettings.master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Base\CommonValues.cs" />
+    <Compile Include="App_Base\GraphConverter.cs" />
+    <Compile Include="App_Base\MvpMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Base\MvpPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Base\MvpUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Master\Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Master\Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Master\DefaultLoggedIn.master.cs">
+      <DependentUpon>DefaultLoggedIn.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Master\DefaultLoggedIn.master.designer.cs">
+      <DependentUpon>DefaultLoggedIn.master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Master\DefaultLoggedOut.master.cs">
+      <DependentUpon>DefaultLoggedOut.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Master\DefaultLoggedOut.master.designer.cs">
+      <DependentUpon>DefaultLoggedOut.master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Views\ForgotPasswordView.ascx.cs">
+      <DependentUpon>ForgotPasswordView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Views\ForgotPasswordView.ascx.designer.cs">
+      <DependentUpon>ForgotPasswordView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Views\LoginView.ascx.cs">
+      <DependentUpon>LoginView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Views\LoginView.ascx.designer.cs">
+      <DependentUpon>LoginView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Base\QueryStringKeys.cs" />
+    <Compile Include="App_Views\SetupAppAddView.ascx.cs">
+      <DependentUpon>SetupAppAddView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Views\SetupAppAddView.ascx.designer.cs">
+      <DependentUpon>SetupAppAddView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Views\SetupAppUpdateView.ascx.cs">
+      <DependentUpon>SetupAppUpdateView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Views\SetupAppUpdateView.ascx.designer.cs">
+      <DependentUpon>SetupAppUpdateView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Views\SetupAppViewView.ascx.cs">
+      <DependentUpon>SetupAppViewView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Views\SetupAppViewView.ascx.designer.cs">
+      <DependentUpon>SetupAppViewView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\InstallCache.cs" />
+    <Compile Include="App_Start\InstallPresenter.cs" />
+    <Compile Include="App_Start\InstallRepository.cs" />
+    <Compile Include="App_Start\InstallService.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Password-Change\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Password-Change\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presenter\AccountUserForgotPasswordChangePresenter.cs" />
+    <Compile Include="Presenter\AccountUserForgotPasswordPresenter.cs" />
+    <Compile Include="Presenter\AccountUserLoggedInPresenter.cs" />
+    <Compile Include="Presenter\AccountUserLoginPresenter.cs" />
+    <Compile Include="Presenter\AccountUserManagementPresenter.cs" />
+    <Compile Include="Presenter\AccountUserUpdatePresenter.cs" />
+    <Compile Include="Presenter\DefaultPresenter.cs" />
+    <Compile Include="Presenter\Enum\MessageType.cs" />
+    <Compile Include="Presenter\ErrorPresenter.cs" />
+    <Compile Include="Presenter\LoggedInPresenter.cs" />
+    <Compile Include="Presenter\MainPresenter.cs" />
+    <Compile Include="Presenter\Presenter.cs" />
+    <Compile Include="Presenter\SettingsPresenter.cs" />
+    <Compile Include="Presenter\SetupAppAddPresenter.cs" />
+    <Compile Include="Presenter\SetupAppUpdatePresenter.cs" />
+    <Compile Include="Presenter\SetupAppViewPresenter.cs" />
+    <Compile Include="Presenter\SetupPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Apps\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apps\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="View\EventArg\EventArgsOfTValueOne.cs" />
+    <Compile Include="View\EventArg\EventArgsOfTValueTwo.cs" />
+    <Compile Include="View\EventArg\EventArgsOfValueFour.cs" />
+    <Compile Include="View\EventArg\EventArgsOfValueThree.cs" />
+    <Compile Include="View\IAccountUserForgotPasswordChangeView.cs" />
+    <Compile Include="View\IAccountUserForgotPasswordView.cs" />
+    <Compile Include="View\IAccountUserLoggedInView.cs" />
+    <Compile Include="View\IAccountUserLoginView.cs" />
+    <Compile Include="View\IAccountUserManagementView.cs" />
+    <Compile Include="View\IAccountUserUpdateView.cs" />
+    <Compile Include="View\IDefaultView.cs" />
+    <Compile Include="View\IErrorView.cs" />
+    <Compile Include="View\IMainView.cs" />
+    <Compile Include="View\ISettingsView.cs" />
+    <Compile Include="View\ISetupAppAddView.cs" />
+    <Compile Include="View\ISetupAppUpdateView.cs" />
+    <Compile Include="View\ISetupAppViewView.cs" />
+    <Compile Include="View\ISetupView.cs" />
+    <Compile Include="View\IView.cs" />
+    <Compile Include="View\IViewIsValid.cs" />
+    <Compile Include="View\IViewLoggedIn.cs" />
+    <Compile Include="WebService\Report.asmx.cs">
+      <DependentUpon>Report.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebService\Tile.asmx.cs">
+      <DependentUpon>Tile.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Master\Default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Master\DefaultLoggedIn.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Master\DefaultLoggedOut.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\AppSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\ConnectionStrings.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\PageControls.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\Main.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppActs.Client.Model\AppActs.Client.Model.csproj">
+      <Project>{1CC61FE6-4E96-4790-8709-49B9B0DC39D4}</Project>
+      <Name>AppActs.Client.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Appacts.Client.Repository\Appacts.Client.Repository.csproj">
+      <Project>{D59196C3-5653-47F6-8945-42A2635573FA}</Project>
+      <Name>Appacts.Client.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppActs.Client.Service\AppActs.Client.Service.csproj">
+      <Project>{59616C3A-66A9-4C8E-8337-5737A500AADB}</Project>
+      <Name>AppActs.Client.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppActs.Model\AppActs.Model.csproj">
+      <Project>{667039A1-F92A-40EB-B430-790F9502BC12}</Project>
+      <Name>AppActs.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Appacts.Repository\Appacts.Repository.csproj">
+      <Project>{DF36067C-BD27-4008-B845-BEFEABF4DEAF}</Project>
+      <Name>Appacts.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Master\DefaultLoggedInSettings.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\franchise-bold-webfont.eot" />
+    <Content Include="App_Themes\Default\franchise-bold-webfont.ttf" />
+    <Content Include="App_Themes\Default\franchise-bold-webfont.woff" />
+    <Content Include="App_Themes\Default\oswald-regular-webfont.eot" />
+    <Content Include="App_Themes\Default\oswald-regular-webfont.ttf" />
+    <Content Include="App_Themes\Default\oswald-regular-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2828</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

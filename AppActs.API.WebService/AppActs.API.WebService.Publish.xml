@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Projects\Appacts\Deployment\AppActs.API.WebService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/AppActs.Model.dll" publishTime="05/21/2013 22:18:00" />
+    <file relUrl="Device.ashx" publishTime="05/20/2013 23:12:44" />
+    <file relUrl="bin/AppActs.API.DataMapper.pdb" publishTime="05/21/2013 22:18:03" />
+    <file relUrl="bin/AppActs.Model.pdb" publishTime="05/21/2013 22:18:00" />
+    <file relUrl="bin/Castle.Windsor.dll" publishTime="12/26/2011 22:21:46" />
+    <file relUrl="Global.asax" publishTime="05/20/2013 23:14:29" />
+    <file relUrl="App_Config/AppSettings.config" publishTime="05/19/2013 13:35:25" />
+    <file relUrl="Error.ashx" publishTime="05/20/2013 23:12:58" />
+    <file relUrl="Upgrade.ashx" publishTime="05/20/2013 23:13:32" />
+    <file relUrl="bin/AppActs.Repository.dll" publishTime="05/21/2013 22:18:02" />
+    <file relUrl="bin/AppActs.API.Service.pdb" publishTime="05/21/2013 22:18:04" />
+    <file relUrl="bin/AppActs.API.Repository.dll" publishTime="05/21/2013 22:18:03" />
+    <file relUrl="bin/MongoDB.Driver.xml" publishTime="03/30/2013 18:05:07" />
+    <file relUrl="Crash.ashx" publishTime="05/20/2013 23:12:52" />
+    <file relUrl="bin/MongoDB.Bson.dll" publishTime="03/30/2013 18:05:07" />
+    <file relUrl="bin/AppActs.API.DataMapper.dll" publishTime="05/21/2013 22:18:03" />
+    <file relUrl="bin/Castle.Core.dll" publishTime="12/26/2011 22:21:46" />
+    <file relUrl="bin/MongoDB.Bson.xml" publishTime="03/30/2013 18:05:07" />
+    <file relUrl="bin/AppActs.Repository.pdb" publishTime="05/21/2013 22:18:01" />
+    <file relUrl="bin/AppActs.API.Model.pdb" publishTime="05/21/2013 22:18:01" />
+    <file relUrl="bin/AppActs.API.WebService.dll" publishTime="05/21/2013 22:18:05" />
+    <file relUrl="bin/MongoDB.Driver.dll" publishTime="03/30/2013 18:05:07" />
+    <file relUrl="Location.ashx" publishTime="05/20/2013 23:13:18" />
+    <file relUrl="Event.ashx" publishTime="05/20/2013 23:13:04" />
+    <file relUrl="bin/AppActs.API.Repository.pdb" publishTime="05/21/2013 22:18:03" />
+    <file relUrl="bin/CacheProvider.dll" publishTime="05/20/2013 21:26:30" />
+    <file relUrl="bin/AppActs.Core.dll" publishTime="05/20/2013 21:51:38" />
+    <file relUrl="bin/log4net.dll" publishTime="12/26/2011 22:21:42" />
+    <file relUrl="App_Config/ConnectionStrings.config" publishTime="05/19/2013 13:35:34" />
+    <file relUrl="bin/AppActs.API.WebService.pdb" publishTime="05/21/2013 22:18:05" />
+    <file relUrl="Web.config" publishTime="05/21/2013 22:18:31" />
+    <file relUrl="bin/AppActs.API.Model.dll" publishTime="05/21/2013 22:18:01" />
+    <file relUrl="User.ashx" publishTime="05/20/2013 23:13:39" />
+    <file relUrl="bin/AppActs.Mvp.dll" publishTime="05/20/2013 21:51:43" />
+    <file relUrl="SystemError.ashx" publishTime="05/20/2013 23:13:26" />
+    <file relUrl="bin/AppActs.API.Service.dll" publishTime="05/21/2013 22:18:04" />
+    <file relUrl="Feedback.ashx" publishTime="05/20/2013 23:13:11" />
+  </publishProfile>
+</publishData>

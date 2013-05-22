@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/App_Master/Default.Master" AutoEventWireup="true" CodeBehind="DefaultLoggedIn.master.cs" Inherits="AppActs.Client.WebSite.App_Master.DefaultLoggedIn" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script language="javascript" type="text/javascript" src="/JavaScript/Library/jquery.session.js"></script>
+    <asp:ContentPlaceHolder runat="server" ID="head">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="header" runat="server">
+    <div class="Header">
+        <div class="HeaderContent">
+            <div class="Logo">
+                <asp:HyperLink runat="server" NavigateUrl="~/" CssClass="logo">
+                    <asp:Image ID="Image1" runat="server" SkinID="sknLogo" AlternateText="Logo" />
+                </asp:HyperLink>            
+            </div>
+            <div id="lnkMenu" class="Menu">
+                <asp:LinkButton runat="server" ID="btnLogout" OnClick="btnLogout_OnClick">LOGOUT</asp:LinkButton>
+                <asp:HyperLink ID="hypSettings" runat="server" NavigateUrl="~/Apps/">SETTINGS</asp:HyperLink>
+                <asp:HyperLink ID="hypHome" runat="server" NavigateUrl="~/" CssClass="first">DASHBOARD</asp:HyperLink>
+            </div>        
+        </div>
+    </div>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager" runat="server">
+            <Services>
+                <asp:ServiceReference Path="~/WebService/Tile.asmx" />
+                <asp:ServiceReference Path="~/WebService/Report.asmx" />
+            </Services>
+        </asp:ScriptManager>
+
+        <div class="Content">
+            <asp:ContentPlaceHolder runat="server" ID="content">
+            </asp:ContentPlaceHolder>
+        </div>
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="footer" runat="server">
+
+</asp:Content>

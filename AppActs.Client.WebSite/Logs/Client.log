@@ -1,0 +1,16 @@
+2013-05-22 22:14:39,453 [14] ERROR Client - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AppActs.Client.WebSite.App_Views.LoginView.RedirectToApps() in C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-server\AppActs.Client.WebSite\App_Views\LoginView.ascx.cs:line 84
+   at AppActs.Client.Presenter.AccountUserLoginPresenter.OnSubmit(Object sender, EventArgs e) in C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-server\AppActs.Client.WebSite\Presenter\AccountUserLoginPresenter.cs:line 88
+2013-05-22 22:15:48,112 [20] ERROR Client - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AppActs.Client.WebSite.App_Views.LoginView.RedirectToFeed() in C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-server\AppActs.Client.WebSite\App_Views\LoginView.ascx.cs:line 74
+   at AppActs.Client.Presenter.AccountUserLoginPresenter.OnSubmit(Object sender, EventArgs e) in C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-server\AppActs.Client.WebSite\Presenter\AccountUserLoginPresenter.cs:line 84

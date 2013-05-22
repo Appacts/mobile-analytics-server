@@ -1,0 +1,1365 @@
+﻿/*
+ * Body
+ */
+html {
+    height: 100%;
+}
+
+form {
+    height: 100%; 
+} 
+
+
+body 
+{
+    background-image: url("/App_Themes/Default/Images/background.jpg");
+    background-repeat: repeat;
+    color: #353535;
+    font-family: Arial;
+    font-size: 16px;
+    /*text-align:center;*/
+    height: 100%;
+}
+
+a {
+    color: #353535;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Franchise, Arial;
+    font-size: 55px;
+}
+
+h3 {
+    font-family: Franchise, Arial;
+    font-size: 28px;
+}
+
+
+a:hover {
+     color: #353535;
+}
+
+a:visited {
+     color: #353535;
+}
+
+input {
+    outline: none;
+}
+
+span.error 
+{
+    color:#FF733D;
+    font-weight:bold;
+}
+
+/*
+* Header
+*/
+
+.Header 
+{
+    background-image: url("/App_Themes/Default/Images/header_background.jpg");
+    background-repeat: repeat-x;
+    height: 60px;
+    min-width: 1006px;
+    width: 100%;
+    border-bottom:1px solid #B4B4B4;
+}
+
+.Header .HeaderContent
+{
+    height: 60px;
+    Width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+}
+
+.Header .HeaderContent .Logo
+{
+    float:left;
+    width:200px;
+    margin-top:10px;
+}
+
+.Header .HeaderContent .Menu
+{
+    float:right;
+    width:300px;
+}
+
+.Header .HeaderContent .Menu a, .Header .HeaderContent .Menu a.select
+{
+    float:right;
+    width:75px;
+    height:40px;
+    background-image: url("/App_Themes/Default/Images/headerLinkGray.png");
+    background-repeat: repeat-x;
+    font-size:20px;
+    font-family: Franchise, Arial;
+    font-weight:normal;
+    text-align:center;
+    padding-top:21px;
+    border-right:1px solid #B4B4B4;
+    cursor:pointer;
+}
+
+.Header .HeaderContent .Menu a:focus, .Header .HeaderContent .Menu a.select:focus
+{
+    background-image: url("/App_Themes/Default/Images/headerLinkGrayHover.png");
+}
+
+.Header .HeaderContent .Menu a:hover, .Header .HeaderContent .Menu a.select:hover
+{
+    background-image: url("/App_Themes/Default/Images/headerLinkGrayHover.png");
+}
+
+.Header .HeaderContent .Menu a.select
+{
+    color:White;
+    background-image: url("/App_Themes/Default/Images/headerLinkOrange.png");
+    background-repeat: repeat-x;
+}
+
+.Header .HeaderContent .Menu a.select:focus
+{
+    background-image: url("/App_Themes/Default/Images/headerLinkOrangeHover.png");
+}
+
+.Header .HeaderContent .Menu a.select:hover
+{
+    background-image: url("/App_Themes/Default/Images/headerLinkOrangeHover.png");
+}
+
+.Header .HeaderContent .Menu a.first
+{
+    border-left:1px solid #B4B4B4;
+}
+
+/*
+* Content
+*/
+
+.Content
+{
+    Width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    /*height: 100%;
+    min-height: 100%;*/
+    text-align:left;
+    margin-top:17px;
+    overflow: hidden;
+}
+
+
+.Content .Name 
+{
+    float:left;
+    width:100%;  
+    padding:34px 0px 30px 0px;
+    font-family:'Oswald', Arial;
+    font-size:18px;
+}
+
+.Content .MenuLeft
+{
+    float:left;
+    width:210px;
+    height:126px;
+    background:white;
+}
+
+.Content .MenuLeft .Container
+{
+    float:left;
+    border:1px solid #BCBCBC;
+    width:208px;
+    height:125px;
+}
+
+.Content .MenuLeft .Container a
+{
+    float:left;
+    height:31px;
+    width:153px;
+    padding-left:30px;
+    padding-right:25px;
+    font-size:14px;
+    padding-top:10px;
+    font-family:'Oswald', Arial;
+    border-bottom:1px solid #BCBCBC;
+    background-image: url("/App_Themes/Default/Images/menu_item_arrow.jpg");
+    background-repeat:no-repeat;
+    background-position:170px center;
+}
+
+.Content .MenuLeft .Container a.last
+{
+    border-bottom:0px;
+}
+
+.Content .MenuLeft .Container a.selected
+{
+    background-image: url("/App_Themes/Default/Images/menu_item_selected.jpg");
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+    color:White;
+}
+
+.Content .ContentRight
+{
+    float:left;
+    width:717px;
+    background:white;
+    margin-left:10px;
+    margin-bottom:18px;
+}
+
+.Content .ContentRight .Container
+{
+    float:left;
+    border:1px solid #C0C0C0;
+}
+
+.Content .ContentRight h3
+{
+    float:left;
+    font-family: 'Oswald', Arial;
+    font-size: 16px;
+    font-weight:normal;
+    width:100%;
+}
+
+
+/*
+* Logged Out
+*/
+
+.Content .Main
+{
+    float:left;
+    width:761px;
+    margin:62px 131.5px;
+    background:white;
+}
+
+.Content .Main .Container
+{
+    float:left;
+    width:759px;
+    border:1px solid #C0C0C0;
+}
+
+.Content .Main .Info
+{
+    float:left;
+    width:705px;
+    padding:18px 18px 18px 29px;
+    height:20px;
+}
+
+.Content .Main .Info h3
+{
+    float:left;
+    font-family: 'Oswald', Arial;
+    font-size: 16px;
+    font-weight:normal;
+    width:200px;
+}
+
+.Content .Main .Info a
+{
+    float:right;
+    text-decoration:underline;
+    font-size:14px;
+    font-family: Arial;
+}
+
+.Content .Main .Info p
+{
+    float:left;
+    margin-top:10px;
+}
+
+
+.Content .Main .Section
+{
+    float:left;
+    width:712px;
+    padding:0px 18px 18px 29px;
+    border-top:1px solid #C0C0C0;
+}
+
+.Content .Main .Section .Inputs
+{
+    float:left;
+    text-align:center;
+    width:470px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+.Content .Main .Section .Input
+{
+    float:left;
+    width:470px;
+    margin-bottom:10px;
+}
+
+.Content .Main .Section .Label
+{
+    float:left;
+    width:470px;
+    margin-bottom:10px;
+}
+
+.Content .Main .Section .Input .Title
+{
+    float:left;
+    width:217px;
+    text-align:right;
+    font-weight:bold;
+    margin-top:6px;
+}
+
+.Terms
+{
+    text-align: right;
+}
+
+.Input .TitleError
+{
+    color: #ff4d00;
+    float:left;
+    width:217px;
+    text-align:right;
+    font-weight:bold;
+    margin-top:6px;
+}
+
+.Content .Main .Section .Input .Field
+{
+    float:right;
+    width:246px;
+    border:1px solid #B9B9B9;
+    height:30px;
+}
+
+.Content .Main .Section .Input input[type=text], 
+.Content .Main .Section .Input input[type=password]
+{ 
+    padding:5px;
+    width:232px;
+    height:18px;
+    background:url("/App_Themes/Default/Images/input_textbox_background.jpg");
+}
+
+.Content .Main .Section .Input select.Field
+{ 
+    width:244px;
+}
+
+.Content .Main .Section .Input button.Field
+{ 
+    width:244px;
+    background:url("/App_Themes/Default/Images/input_multiselect_background.jpg");
+}
+
+
+.Content .Main .Section table tr th
+{
+    text-align:left;
+}
+
+.Wrapper {
+    min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -137px;
+}
+
+/*
+* Footer
+*/
+
+.push {
+    height:137px;
+}
+
+.footerWrapper {
+    float:left;
+    margin-top: 0px;
+    min-width: 1006px;
+    width: 100%;
+    font-size:13px;
+}
+
+.footerLinksWrapper {
+    background-image: url("/App_Themes/Default/Images/footer_background.jpg");
+    background-repeat: repeat-x;
+    float: left;
+    height: 118px;
+    margin-top: 20px;
+    Width: 100%;
+}
+
+.footerLinks {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    Width: 1006px;
+    overflow:hidden;
+}
+
+.footerLink,
+.footerLinkLarge,
+.footerLinkMedium {
+    margin: 0px 60px 0px 0px;
+    float:left;
+    width:80px;
+    height:118px;
+}
+
+.footerLinkLarge 
+{
+    width:160px; 
+}
+
+.footerLinkMedium 
+{
+    width:120px;
+}
+
+.footerLinkNoTitle 
+{
+    margin-top:15px;
+}
+
+.footerLinkLast
+{
+    margin-right:0px;
+}
+
+.footerLink span,
+.footerLinkLarge span,
+.footerLinkMedium span
+ {
+    float:left;
+    margin-top:3px;
+    margin-bottom:5px;
+    width: inherit;
+    font-weight:bold;
+}
+
+.footerLink ul,
+.footerLinkLarge ul,
+.footerLinkMedium ul
+ {
+    float:left;
+    margin:0px;
+    margin-top: 6px;
+    width: inherit;
+    padding:0px;
+}
+
+.footerLink ul li,
+.footerLinkLarge ul li,
+.footerLinkMedium ul li
+ {
+    float:left;    
+    list-style: none;
+    margin:0px;
+    margin-bottom:5px;
+    width: inherit;
+    padding:0px;
+}
+
+.footerLink a,
+.footerLinkLarge a,
+.footerLinkMedium a
+ {
+    float:left;
+}
+
+.footerLink a:hover,
+.footerLinkLarge a:hover,
+.footerLinkMedium a:hover
+{
+    text-decoration:underline;
+}
+
+.footerCopyWrapper {
+    background-image: url("/App_Themes/Default/Images/footer_copy_background.png");  
+    background-repeat: repeat-x;
+    clear: both;
+    height:20px;
+    min-width: 1006px;
+    Width: 100%;
+}
+
+.footerCopy {
+    padding-top: 4px;
+    Width: 1006px;
+    text-align:right;
+    font-size:10px;
+    margin:0px auto 0px auto;
+}
+
+.footerCopy span {
+    float: right;
+}
+
+.center {
+    text-align: center;
+} 
+ 
+.centerDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.clearLeft {
+    clear: left;
+}
+
+.clearRight {
+    clear: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.Bold 
+{
+    font-weight:bold;
+}
+
+.NoWrap
+{
+    white-space: nowrap;
+}
+
+a.Underline
+{
+    text-decoration:underline;
+}
+
+.group:before,
+
+.group:after {
+    content:"";
+    display:table;
+}
+
+.group:after {
+    clear:both;
+}
+
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+
+
+
+
+/*** Warning Messages ***/
+.Success, .Warning, .Error 
+{
+    margin-top:10px;
+    padding:10px 10px 10px 50px; 
+    border:1px solid #ADADAD;
+    color:#FFFFFF;
+    min-height:30px;
+    min-width:30px;
+    width:390px;
+    font-size:12px;
+}
+
+.Success
+{
+    background:#49D75A url('Images/messageSuccess.png') no-repeat 10px 10px;
+}
+
+.Warning
+{
+    background:#E7B544 url('Images/messageWarning.png') no-repeat 10px 10px;
+}
+
+.Error 
+{
+    background:#E44345 url('Images/messageError.png') no-repeat 10px 10px;
+}
+
+
+.xAxis .tickLabel
+{
+    margin-top:10px;
+}
+
+.Horiz
+{
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+
+
+/* Main */
+
+#selectors
+{
+    float:left;
+    width:226px;
+}
+
+#selectors > #loading
+{
+    display:none;
+    position:absolute;
+    width:226px;
+    height:301px;
+    background:black;
+    opacity: 0.10; /* standard: ff gt 1.5, opera, safari */
+	-ms-filter: "alpha(opacity=10)"; /* ie 8 */
+	filter: alpha(opacity=10); /* ie lt 7 */
+	-khtml-opacity: 0.10; /* safari 1.x */
+	-moz-opacity: 0.10; /* ff lt 1.5, netscape */
+}
+
+#selectors #controls
+{
+    float:left;
+    width:226px;
+    background:white;
+    font-family:'Oswald', Arial;
+    font-size:14px;
+    
+    -moz-box-shadow: 3px 3px 3px #BCBCBC;
+    -webkit-box-shadow: 3px 3px 3px #BCBCBC;
+    box-shadow: 3px 3px 3px #BCBCBC;
+}
+
+#selectors #controls #container 
+{
+    float:left;
+    width:206px;
+    padding-top:21px;
+    padding-left:11px;
+    padding-right:7px;
+    padding-bottom:18px;
+    border:1px solid #BCBCBC;
+}
+
+#selectors #controls #apps
+{
+    float:left;
+    width:198px;
+    padding:0px 11px 0px 0px;
+}
+
+#selectors #controls #apps > #title
+{
+    float:left;
+    margin-bottom:4px;
+    margin-left:7px;
+}
+
+#selectors #controls #apps select
+{
+    float:left;
+    width:196px;
+    height:30px;
+    border:1px solid #C9C7C8;
+}
+
+#selectors #controls #feedTitle
+{
+    float:left;
+    width:183px;
+    padding:23px 0px 14px 7px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+#selectors #controls #feeds
+{
+    float:left;
+    width:190px;
+}
+
+#selectors #controls #feeds span, #selectors #controls #feeds span.select
+{
+    float:left;
+    width:195px;
+    cursor:pointer;
+    height:25px;
+    border-bottom:1px solid #A4A4A4;
+    padding:3px 0px 0px 11px;
+}
+
+#selectors #controls #feeds span:hover 
+{
+    background-image: url("/App_Themes/Default/Images/feed_item_hover.jpg");
+    margin-top:-1px;
+    padding-top:4px;
+    border-bottom:1px solid white;
+}
+
+#selectors #controls #feeds span.select
+{
+    color:White;
+    background-image: url("/App_Themes/Default/Images/feed_item_select.jpg");
+    margin-top:-1px;
+    padding-top:4px;
+    border-bottom:1px solid white;
+}
+
+
+#selectors #controls #feeds span.last
+{
+    border-bottom:0px;
+}
+
+#selectors #info
+{
+    float:left;
+    width:226px;
+    font-family:Arial;
+}
+
+#selectors #info #name
+{
+    float:left;
+    font-weight:bold;
+    font-size:14px;
+    margin-top:18px;
+}
+
+#selectors #info #content
+{
+    float:left;
+    font-size:12px;
+    margin-top:18px;
+}
+
+#selectors #info #content span
+{
+    float:left;
+    font-weight:bold;
+    font-size:12px;
+    margin-bottom:18px;
+}
+
+#selectors #info #content p
+{
+    float:left;
+}
+
+
+#bookmarks
+{
+    float:left;
+    min-width:635px;
+    max-width:635px;
+    min-height:200px;
+    overflow:hidden;
+    margin-left:16px;
+    
+    /*
+    overflow:hidden;
+    min-width:625px;
+    max-width:625px;*/
+}
+
+#bookmarksScroll
+{
+    float:left;
+    min-width:810px;
+    max-width:810px;
+    min-height:200px;
+    overflow:scroll;
+    overflow-x:hidden;
+    
+    /*
+    min-width:630px;
+    max-width:630px;
+    min-height:200px;*/
+}
+
+
+#bookmarksScroll div .loading
+{
+    display:none;
+    float:left;
+    background-image:url("/App_Themes/Default/Images/Loading_Data.gif");
+    background-repeat:no-repeat;
+    min-width:635px;
+    min-height:25px;
+    z-index:100;
+}
+
+.bookmark 
+{
+    float:left;
+    display:none;
+}
+
+#timeline
+{
+    float:right;
+    width:120px;
+    background:white;
+    margin-right: 5px;
+    
+    -moz-box-shadow: 3px 3px 3px #BCBCBC;
+    -webkit-box-shadow: 3px 3px 3px #BCBCBC;
+    box-shadow: 3px 3px 3px #BCBCBC;
+}
+
+#timeline .container
+{
+    float:left;
+    border:1px solid #BFBFBF;
+    width:118px;
+    padding:18px 0px 0px 0px;
+}
+
+#timeline span.title
+{
+    float:left;
+    width:82px;
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding:0px 18px 0px 18px;
+    font-family:Franchise, Arial;
+}
+
+#timeline #periods
+{
+    float:left;
+    width:118px;
+}
+
+#timeline #periods span, 
+#timeline #periods span.select, 
+#timeline #periods span.unavailable,
+#timeline #periods span.unavailable:hover
+{
+    float:left;
+    width:90px;
+    cursor:pointer;
+    padding:6px 8px 0px 20px;
+    height:21px;
+    border-top:1px solid #BAB8B9;
+    font-size:11.4px;
+    letter-spacing:-0.2px;
+    background-image: url("/App_Themes/Default/Images/timeline_item.jpg");
+    font-family:'Oswald', Arial;
+}
+
+#timeline #periods span.select,
+#timeline #periods span.select:hover
+{
+    background-image: url("/App_Themes/Default/Images/timeline_item_select.png");
+    height:21px;
+    border-top:0px;
+    padding-top:7px;
+}
+
+#timeline #periods span:hover
+{
+    background-image: url("/App_Themes/Default/Images/timeline_item_select.png");
+    height:21px;
+    border-top:0px;
+    padding-top:7px;
+}
+
+#timeline #periods span.unavailable,
+#timeline #periods span.unavailable:hover
+{
+    color:#ABABAB;
+    cursor:default;
+}
+
+
+
+/* Generic */
+
+.borderLeft,
+.borderLeftMed
+{
+    float:left;
+    background-image: url("/App_Themes/Default/Images/border_left.png");
+    background-repeat: repeat-y; 
+    width:inherit;
+    height:inherit;
+}
+
+.borderRight,
+.borderRightMed
+{
+    float:left;
+    background-image: url("/App_Themes/Default/Images/border_right.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    width:inherit;
+    height:inherit;
+}
+
+.borderLeftMed
+{
+    background-image: url("/App_Themes/Default/Images/border_left_med.jpg");
+}
+
+.borderRightMed
+{
+    background-image: url("/App_Themes/Default/Images/border_right_med.jpg");
+}
+
+
+/* Settings */
+
+.Content .ContentRight .Info
+{
+    float:left;
+    width:686px;
+    padding:18px 0px 18px 29px;
+}
+
+.Content .ContentRight .Info p
+{
+    float:left;
+    margin-top:10px;
+}
+
+
+.Content .ContentRight .Section
+{
+    float:left;
+    width:668px;
+    padding:18px 18px 18px 29px;
+    border-top:1px solid #C0C0C0;
+}
+
+.Content .ContentRight .Section .Container
+{
+    float:left;
+    width:668px;
+    border:0px;
+    text-align:center;
+}
+
+.Content .ContentRight .Section .Inputs
+{
+    float:left;
+    text-align:center;
+    width:470px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+.Content .ContentRight .Section .Input
+{
+    float:left;
+    width:470px;
+    margin-bottom:10px;
+}
+
+.Content .ContentRight .Section .Input .Title
+{
+    float:left;
+    width:217px;
+    text-align:right;
+    font-weight:bold;
+    margin-top:6px;
+}
+
+.Content .ContentRight .Section .Input .Field
+{
+    float:right;
+    width:246px;
+    border:1px solid #B9B9B9;
+    height:30px;
+}
+
+.Content .ContentRight .Section .Input .FieldSmall
+{
+    float:right;
+    font-size: 12px;
+    padding-top: 6px;
+    width:246px;
+    height:30px;
+}
+
+.Content .ContentRight .Section .Input input[type=text], .Content .ContentRight .Section .Input input[type=password]
+{ 
+    padding:5px;
+    width:232px;
+    height:18px;
+    background:url("/App_Themes/Default/Images/input_textbox_background.jpg");
+}
+
+.Content .ContentRight .Section .Input select.Field
+{ 
+    width:244px;
+}
+
+.Content .ContentRight .Section .Input button.Field
+{ 
+    width:244px;
+    background:url("/App_Themes/Default/Images/input_multiselect_background.jpg");
+}
+
+
+.Content .ContentRight .Section table tr th
+{
+    text-align:left;
+}
+
+.Content .UpdateAppCompletePlatforms
+{
+    font-size: 12px;
+    list-style: none;
+}
+
+.Content .UpdateAppCompletePlatforms li
+{
+    padding-bottom: 10px;
+}
+
+.Content .UpdateAppCompletePlatforms span
+{
+    padding-top: 2px;
+    float: left;
+    width: 45px;
+}
+
+.Content .UpdateAppCompletePlatforms div
+{
+    padding-top: 6px;
+    float: left;
+    text-align: left;
+    width: 425px;
+}
+
+/*
+ * Misc
+ */
+ 
+ .AjaxWatermark
+{
+    float:right;
+    width:246px;
+    border:1px solid #B9B9B9;
+    height:30px;
+    color:#cccccc;
+}
+
+input.callToAction, input.additionalOption
+{
+    border:0px;
+    font-family:'Oswald', Arial;
+    font-size:14px;
+    padding:12px 28px 12px 28px;
+    min-width:81px;
+    float:right;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+input.callToAction
+{
+    background:#FF4E00;
+    color:White;
+}
+
+input.additionalOption
+{
+    background:#A2A2A2;
+    color:White;
+}
+
+
+
+input.callToActionSmall
+{
+    border:0px;
+    font-family:'Oswald', Arial;
+    font-size:14px;
+    padding:3px 11px 3px 11px;
+    min-width:50px;
+    float:right;
+    margin-left:5px;
+    cursor:pointer;
+}
+
+input.callToActionSmall
+{
+    background:#FF4E00;
+    color:White;
+}
+
+.Messages {
+    min-height: 18px;
+    float: right;
+    font-weight: bold;
+    text-align: right;
+    width: 500px;
+}
+
+.Messages span {
+    clear: both;
+    float: right;
+    padding-bottom: 5px;
+}
+
+/*** Lightboxes START ***/
+.lightboxSmall
+{
+    height: 180px;
+    position:absolute;
+	left:50%;
+	top:20%;
+	z-index:201;
+	display:none;
+	width:430px;
+	margin-left:-230px;
+	background:#FFFFFF;
+	text-align: center;
+}
+
+.lightboxSmallContent
+{
+    margin:20px;
+}
+
+.lightboxSmall p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.lightboxSmall h3 {
+    background-image:url("/App_Themes/Default/Images/sad_face.png");
+    background-repeat:no-repeat;
+    font-family: 'Oswald';
+    font-size: 20px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    width: 200px;
+}
+
+.lightboxSmall .submit
+{
+    background-image:url("/App_Themes/Default/Images/orange_button_large.png");
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Oswald';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+
+/*** Lightboxes END ***/
+
+/*** Demo Box ***/
+
+#Demo
+{
+    position:absolute;
+    width:400px;
+    height:auto;
+    background:white;
+    padding:10px;
+    display:none;
+}
+
+#Demo .callToAction,
+#Demo .additionalOption
+{
+    margin:5px 0px 5px 0px;
+}
+
+
+#Demo h2
+{
+    font-size:20px;
+    margin-bottom:0px;
+}
+
+#Demo .container
+{
+    float:left;
+    width:inherit;
+    margin-bottom:10px;
+}
+
+#Demo .container input
+{
+    float:left;
+}
+
+#Demo .container #GetStarted
+{
+    float:left;
+    display:none;
+    width:370px;
+    margin-top:10px;
+    padding-left:30px;
+}
+
+#Demo .container #GiveFeedback
+{
+    float:left;
+    display:none;
+    width:370px;
+    margin-top:10px;
+    padding-left:30px;
+}
+
+#Demo .container #GiveFeedback .AjaxWatermark
+{
+    float:left;
+    width:360px;
+    height:auto;
+    padding:5px;
+    margin-top:10px;
+}
+
+#Demo .container #GiveFeedback .reason
+{
+    float:left;
+    width:360px;
+    border:1px solid #B9B9B9;
+    padding:5px;
+    height:50px;
+    margin-top:10px;
+}
+
+#Demo .container #GiveFeedback .email
+{
+    float:left;
+    width:360px;
+    border:1px solid #B9B9B9;
+    padding:5px;
+    margin-top:10px;
+}
+
+
+/*** Demo Box End ***/
+
+
+/*** Lightboxes START ***/
+#overlay
+{
+	position:fixed;
+	background:#000000;
+	opacity: 0.4; /* standard: ff gt 1.5, opera, safari */
+	-ms-filter: "alpha(opacity=40)"; /* ie 8 */
+	filter: alpha(opacity=40); /* ie lt 7 */
+	-khtml-opacity: 0.4; /* safari 1.x */
+	-moz-opacity: 0.4; /* ff lt 1.5, netscape */
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;	
+	z-index:200;
+	display:none;
+	cursor:
+}
+
+* html #overlay { /* ie6 hack */
+	position: absolute;
+	height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+	width: expression(document.body.scrollWidth > document.body.offsetWidth ? document.body.scrollWidth : document.body.offsetWidth + 'px');
+}
+
+.lightbox
+{
+    padding: 0px;
+    position:absolute;
+	left:50%;
+	top:10%;
+	z-index:201;
+	display:none;
+	width:991px;
+	margin-left:-495.5px;
+	background:white;
+}
+
+
+.lightboxOuter
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*** Lightboxes END ***/
+
+
+/*** v3 product ***/
+
+#tileStage
+{
+    float:left;
+    width:1000px;
+    margin-top:10px;
+    background:white;
+    border:1px solid #BFBFBF;
+    margin-bottom:10px;
+}
+
+#tileStage #tiles
+{
+    float:left;
+    padding:20px 20px 20px 20px;
+    width:940px;
+}
+
+
+#loadingOverlay
+{
+    display:none;
+}
+
+#loadingOverlay #loading
+{
+    padding: 0px;
+    position:absolute;
+	left:50%;
+	top:40%;
+	z-index:201;
+	min-width:191px;
+	min-height:80px;
+	margin-left:-95.5px;
+	background-image:url("/App_Themes/Default/Images/Loading.gif");
+}
+
+/*** v3 product end ***/

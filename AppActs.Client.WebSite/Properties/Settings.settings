@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppActs.Client.WebSite.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StartupSystemUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{ 
+	Email : "admin@admin.com", 
+	Name : "Admin", 
+	Active : true, 
+	ForgotPasswordGuid : BinData(3,"AAAAAAAAAAAAAAAAAAAAAA=="),
+	Password : "0GGEm3kSzVXxOGwzBTbzBnvZMS9dIr2trFpnWCNG9Sa1y4JuVxMKQeJ97UMAkg7fxP10qdx2GIjsXPSalROyGib8+rkPhZD0v5wfcFFs5uzRScawSGftc2ttGf4ebhq51lggb8e5UCxnmBZpPkbfYob6HQCswmy34HW6VyIypSVwTdmDhNil+A==",
+	Guid : BinData(3,"veCD6XtL5kSLuYnh89PW+A==") 
+}              
+                
+            </Value>
+    </Setting>
+    <Setting Name="StartupSystemPlatform" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">
+			{
+				{ Type : 5, Name: 'Android' },
+				{ Type : 4, Name: 'Blackberry' },
+				{ Type : 2, Name: 'iOS' },
+				{ Type : 6, Name: 'WP7' }
+			}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

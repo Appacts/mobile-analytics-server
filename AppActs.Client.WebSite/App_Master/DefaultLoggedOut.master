@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/App_Master/Default.Master" AutoEventWireup="true" CodeBehind="DefaultLoggedOut.master.cs" Inherits="AppActs.Client.WebSite.App_Master.DefaultLoggedOut" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="head">
+    
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="header" runat="server">
+<div class="Wrapper">
+    <div class="Header">
+        <div class="HeaderContent">
+            <div class="Logo">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Login.aspx" CssClass="logo">
+                    <asp:Image ID="Image1" runat="server" SkinID="sknLogo" AlternateText="Logo" />
+                </asp:HyperLink>            
+            </div>      
+            <div id="lnkMenu" class="Menu">
+                <asp:HyperLink ID="hypLogin" runat="server" EnableViewState="false" CssClass="first" NavigateUrl="~/Login.aspx?login=true">LOGIN</asp:HyperLink>
+            </div> 
+        </div>
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+
+    <asp:ScriptManager ID="ScriptManager" runat="server">
+
+    </asp:ScriptManager>
+
+    <div class="Content">
+        <asp:ContentPlaceHolder runat="server" ID="content">
+    
+        </asp:ContentPlaceHolder>    
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="footer" runat="server">
+<div class="push"></div>
+</div>
+    <div class="footerWrapper">
+        <div class="footerLinksWrapper">
+            <div class="footerLinks" >
+                <div class="footerLink">
+                    <span>Project</span>
+                    <ul>
+                        <li><a href="http://blog.appacts.com/page/about.aspx">About</a></li>
+                        <li><a href="http://blog.appacts.com/">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footerLinkMedium">
+                    <span>Help</span>
+                    <ul>
+                        <li><a href="http://support.appacts.com/kb/faq/technical-faq">Technical FAQ</a></li>
+                        <li><a href="http://support.appacts.com/kb/faq/general-faq">General FAQ</a></li>
+                        <li><a href="http://support.appacts.com/discussion/new">Give Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footerLinkMedium">
+                    <span>Documentation</span>
+                    <ul>
+                        <li><a href="http://support.appacts.com/kb/">Overview</a></li>
+                        <li><a href="http://support.appacts.com/kb/ios-sdk-guide">iOS Guide</a></li>
+                        <li><a href="http://support.appacts.com/kb/android-sdk-guide">Android Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footerLinkLarge footerLinkNoTitle">
+                    <span> </span>
+                    <ul>
+                        <li><a href="http://support.appacts.com/kb/blackberry-sdk-guide">Blackberry Guide</a></li>
+                        <li><a href="http://support.appacts.com/kb/windows-phone-7-sdk-guide">Windows Phone Guide</a></li>
+                        <li><a href="http://support.appacts.com/kb/api/restful-api">RESTful API Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footerLinkMedium footerLinkLast">
+                    <span>Connect</span>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/appacts" class="twitter-follow-button" data-show-count="false">Follow @appacts</a>
+                            <script>                                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footerCopyWrapper">
+            <div class="footerCopy">
+                <span>&copy; <%= DateTime.Now.Year %> Appacts</span>
+            </div>
+        </div>
+    </div>
+</asp:Content>

@@ -1,0 +1,257 @@
+﻿.tile,
+.tile_with_filter
+{
+    float:left;
+    color: white;
+    width:130px;
+    height:35px;
+    margin:5px;
+    font-family:'Oswald', Arial;
+    padding:20px 20px 20px 20px;
+    line-height: 1.5em;
+    cursor:pointer;
+    -moz-box-shadow: 2px 2px 2px #BCBCBC;
+    -webkit-box-shadow: 2px 2px 2px #BCBCBC;
+    box-shadow: 2px 2px 2px #BCBCBC;
+    letter-spacing:0.5px
+}
+
+#tileStage #noData
+{
+    text-align: center;
+    font-family: 'Oswald', Arial;
+    font-size: 15px;
+    color: grey;
+    display: none;
+    padding: 20px;
+    width: 960px
+}
+
+.noAction
+{
+    cursor:default;
+}
+
+.tile_with_filter
+{
+    width:170px;
+    height:75px;
+    padding:0px;
+}
+
+.neutral
+{
+    background-image:url("/App_Themes/Default/Images/tile_neutral.jpg");
+}
+
+.neutral.selected
+{
+    background-image:url("/App_Themes/Default/Images/tile_neutral_selected.jpg");
+}
+
+.negative
+{
+    background:#bc1652;
+    background-image:url("/App_Themes/Default/Images/tile_negative.jpg");
+}
+
+.negative.selected
+{
+    background:#bc1652;
+    background-image:url("/App_Themes/Default/Images/tile_negative_selected.jpg");
+}
+
+.positive
+{
+    background:#069a29;
+    background-image:url("/App_Themes/Default/Images/tile_positive.jpg");
+}
+
+.positive.selected
+{
+    background-image:url("/App_Themes/Default/Images/tile_positive_selected.jpg");
+}
+
+.longTitleTopValueBelow
+{
+    
+}
+
+.tile .title,
+.tile_with_filter .title
+{
+    float:left;
+    font-weight:normal;
+    font-size:11px;
+    margin-top:-5px;
+}
+
+.tile .value,
+.tile_with_filter .value
+{
+    float:left;
+    font-size:16px;
+    margin-top:-5px;
+    
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    width: 130px;
+}
+
+
+.full
+{
+    width:inherit;
+}
+
+.vcentre
+{
+    margin-top:7px;
+}
+
+/* icons setup */
+
+.gender_Male,
+.gender_Female
+{
+    min-width:25px;
+    min-height:44px;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+.gender_Male
+{
+    background-image:url("/App_Themes/Default/Images/gender_male.png"); 
+}
+
+.gender_Female
+{
+    background-image:url("/App_Themes/Default/Images/gender_female.png"); 
+}
+
+#Feedback .value
+{
+    overflow: visible;
+}
+
+.feedback_stars0,
+.feedback_stars1,
+.feedback_stars2,
+.feedback_stars3,
+.feedback_stars4,
+.feedback_stars5
+{
+    min-width:135px;
+    min-height:23px;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+.feedback_stars0
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_feedback0.png"); 
+}
+
+.feedback_stars1
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_feedback1.png"); 
+}
+.feedback_stars2
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_feedback2.png"); 
+}
+.feedback_stars3
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_feedback3.png"); 
+}
+.feedback_stars4
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_feedback4.png"); 
+}
+.feedback_stars5
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_feedback5.png"); 
+}
+
+.filterSaturday,
+.filterSunday,
+.filterFriday,
+.filterThursday,
+.filterWednesday,
+.filterTuesday,
+.filterMonday,
+.filterContantLoadTime,
+.filterCrashes,
+.filterPlatform,
+.filterCarrier,
+.filterTimeOfDay
+{
+    float:left;
+    padding:20px 20px 20px 20px;
+    width:130px;
+    height:35px;
+}
+
+.filterSunday
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_sunday.png");
+}
+
+.filterMonday 
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_monday.png"); 
+}
+
+.filterTuesday 
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_tuesday.png"); 
+}
+
+.filterWednesday
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_wednesday.png"); 
+}
+
+.filterThursday
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_thursday.png"); 
+}
+
+.filterFriday 
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_friday.png"); 
+}
+
+.filterSaturday
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_saturday.png"); 
+}
+
+.filterContantLoadTime
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_loadspeed.png");
+}
+
+.filterCrashes
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_crash.png");
+}
+
+.filterPlatform
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_platform.png");
+}
+
+.filterCarrier
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_carrier.png");
+}
+
+.filterTimeOfDay
+{
+    background-image:url("/App_Themes/Default/Images/tile_icon_timeofday.png");
+}

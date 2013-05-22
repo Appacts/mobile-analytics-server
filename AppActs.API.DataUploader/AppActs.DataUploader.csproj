@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{163C8222-9E72-4DDD-814E-CBC2E1CC83E8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppActs.API.DataUploader</RootNamespace>
+    <AssemblyName>AppActs.Device.DataUploader</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppActs.Core">
+      <HintPath>..\References\AppActs.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\packages\mongocsharpdriver.1.8.0\lib\net35\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\packages\mongocsharpdriver.1.8.0\lib\net35\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSession.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppActs.API.DataMapper\AppActs.API.DataMapper.csproj">
+      <Project>{E9A0E57E-D965-4990-A8C1-E0CC9FD39078}</Project>
+      <Name>AppActs.API.DataMapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppActs.Model\AppActs.Model.csproj">
+      <Project>{667039A1-F92A-40EB-B430-790F9502BC12}</Project>
+      <Name>AppActs.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppActs.API.Model\AppActs.API.Model.csproj">
+      <Project>{016AD2D3-03C7-484D-96EA-B1ED49BACC19}</Project>
+      <Name>AppActs.API.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Appacts.API.Repository\Appacts.API.Repository.csproj">
+      <Project>{3526564B-AADF-4CD7-8E47-4747C4B3D7BC}</Project>
+      <Name>Appacts.API.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppActs.API.Service\AppActs.API.Service.csproj">
+      <Project>{C7F6587E-F62E-4743-B87B-A3B0369FDB33}</Project>
+      <Name>AppActs.API.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Appacts.Repository\Appacts.Repository.csproj">
+      <Project>{DF36067C-BD27-4008-B845-BEFEABF4DEAF}</Project>
+      <Name>Appacts.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
