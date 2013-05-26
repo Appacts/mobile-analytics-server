@@ -27,7 +27,7 @@ That being said for most apps you will get away with just having one server that
 
 #####Update:#####
 
-    AppConfig/ConnectionStrings.config <-default will work automtically, but this can be changed if you have extra security
+    AppConfig/ConnectionStrings.config <-default will work automatically, but this can be changed if you have extra security
 
 
 #####Go to:#####
