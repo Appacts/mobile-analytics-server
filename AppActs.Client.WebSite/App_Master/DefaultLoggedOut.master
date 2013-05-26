@@ -7,7 +7,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="header" runat="server">
-<div class="Wrapper">
+    <div class="Wrapper">
     <div class="Header">
         <div class="HeaderContent">
             <div class="Logo">
@@ -20,6 +20,7 @@
             </div> 
         </div>
     </div>
+</div>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
@@ -36,7 +37,7 @@
 </asp:Content>
 
 <asp:Content ID="Content5" ContentPlaceHolderID="footer" runat="server">
-<div class="push"></div>
+    <div class="push"></div>
 </div>
     <div class="footerWrapper">
         <div class="footerLinksWrapper">
@@ -46,30 +47,32 @@
                     <ul>
                         <li><a href="http://blog.appacts.com/page/about.aspx">About</a></li>
                         <li><a href="http://blog.appacts.com/">Blog</a></li>
+                        <li><a href="https://sourceforge.net/projects/appacts/files/">Download</a></li>
                     </ul>
                 </div>
                 <div class="footerLinkMedium">
                     <span>Help</span>
                     <ul>
-                        <li><a href="http://support.appacts.com/kb/faq/technical-faq">Technical FAQ</a></li>
-                        <li><a href="http://support.appacts.com/kb/faq/general-faq">General FAQ</a></li>
-                        <li><a href="http://support.appacts.com/discussion/new">Give Feedback</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-server/wiki/Technical-FAQ">Technical FAQ</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-server/issues">Report issue / bug</a></li>
+                        <li><a href="https://sourceforge.net/p/appacts/tickets/">Create ticket</a></li>
+                        <li><a href="https://twitter.com/appacts">Give us feedback</a></li>
                     </ul>
                 </div>
                 <div class="footerLinkMedium">
                     <span>Documentation</span>
                     <ul>
-                        <li><a href="http://support.appacts.com/kb/">Overview</a></li>
-                        <li><a href="http://support.appacts.com/kb/ios-sdk-guide">iOS Guide</a></li>
-                        <li><a href="http://support.appacts.com/kb/android-sdk-guide">Android Guide</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-server/wiki">Overview</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-sdk-ios#integration-examples">iOS Guide</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-sdk-android#example-integrations">Android Guide</a></li>
                     </ul>
                 </div>
                 <div class="footerLinkLarge footerLinkNoTitle">
                     <span> </span>
                     <ul>
-                        <li><a href="http://support.appacts.com/kb/blackberry-sdk-guide">Blackberry Guide</a></li>
-                        <li><a href="http://support.appacts.com/kb/windows-phone-7-sdk-guide">Windows Phone Guide</a></li>
-                        <li><a href="http://support.appacts.com/kb/api/restful-api">RESTful API Guide</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-sdk-blackberry#integration-examples">Blackberry Guide</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-sdk-wp7#integration-examples">Windows Phone Guide</a></li>
+                        <li><a href="https://github.com/Appacts/appacts-server/wiki/RESTful-API-Guide">RESTful API Guide</a></li>
                     </ul>
                 </div>
                 <div class="footerLinkMedium footerLinkLast">
